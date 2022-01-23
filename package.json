@@ -1,0 +1,20 @@
+{
+  "name": "pod-request-access-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Pod request access landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryszardskiepko/pod-request-access-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryszardskiepko/pod-request-access-landing-page/issues"
+  },
+  "homepage": "https://github.com/ryszardskiepko/pod-request-access-landing-page#readme"
+}

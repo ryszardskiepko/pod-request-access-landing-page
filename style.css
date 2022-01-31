@@ -39,3 +39,12 @@ html {
   box-sizing: inherit; }
 
 /*-------------------*/
+main {
+  position: absolute;
+  opacity: 0.9;
+  background-image: url("starter-code/assets/mobile/image-host.jpg");
+  mix-blend-mode: screen;
+  width: 1001px;
+  height: 667px;
+  left: calc(50% - 1001px/2 - 72px);
+  top: calc(50% - 667px/2); }

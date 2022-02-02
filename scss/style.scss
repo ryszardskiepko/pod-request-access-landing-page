@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
 @import "_variables.scss";
 @import "modules/podcast.scss";
 @import "modules/platform.scss";
@@ -18,13 +18,20 @@ html {
 }
 /*-------------------*/
 
-main{
+body {
+  font-size: $fontSizeMobileHeader;
+  font-family: $fontFamily;
+  color: $textColor;
+}
+
+main {
+  min-height: 100vh;
   position: absolute;
   opacity: 0.9;
   background-image: url("starter-code/assets/mobile/image-host.jpg");
   mix-blend-mode: screen;
   width: 1001px;
   height: 667px;
-  left: calc(50% - 1001px/2 - 72px);
-  top: calc(50% - 667px/2);
+  left: calc(50% - 1001px / 2 - 72px);
+  top: calc(50% - 667px / 2);
 }

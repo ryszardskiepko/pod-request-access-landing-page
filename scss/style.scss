@@ -35,3 +35,15 @@ main {
   left: calc(50% - 1001px / 2 - 72px);
   top: calc(50% - 667px / 2);
 }
+
+@media (min-width: $mobile) {
+  body {
+    font-size: $fontSizeTabletHeader;
+  }
+}
+
+@media (min-width: $tablet) {
+  body {
+    font-size: $fontSizeDesktopHeader;
+  }
+}

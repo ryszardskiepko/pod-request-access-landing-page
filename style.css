@@ -54,3 +54,11 @@ main {
   height: 667px;
   left: calc(50% - 1001px / 2 - 72px);
   top: calc(50% - 667px / 2); }
+
+@media (min-width: 375px) {
+  body {
+    font-size: 48px; } }
+
+@media (min-width: 768px) {
+  body {
+    font-size: 52px; } }

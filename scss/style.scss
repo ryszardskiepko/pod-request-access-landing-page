@@ -40,14 +40,24 @@ main {
   body {
     font-size: $fontSizeTabletHeader;
   }
+  .podcast__description {
+    font-size: $fontSizeText;
+  }
 }
 
 @media (min-width: $tablet) {
   body {
     font-size: $fontSizeDesktopHeader;
   }
+  .podcast__description {
+    font-size: $fontSizeText;
+  }
 }
 
 .podcast__color {
   color: $headerButtonColor;
+}
+
+.podcast__description {
+  font-size: $fontSizeMobileText;
 }

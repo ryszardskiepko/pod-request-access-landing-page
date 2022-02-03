@@ -62,3 +62,6 @@ main {
 @media (min-width: 768px) {
   body {
     font-size: 52px; } }
+
+.podcast__color {
+  color: #54e6af; }

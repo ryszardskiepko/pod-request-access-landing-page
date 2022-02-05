@@ -61,3 +61,10 @@ main {
 .podcast__description {
   font-size: $fontSizeMobileText;
 }
+
+.podcast__access {
+  position: absolute;
+  background: $headerButtonColor;
+  box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+  border-radius: 28px;
+}

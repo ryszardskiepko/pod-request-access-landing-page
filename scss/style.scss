@@ -40,7 +40,7 @@ main {
   body {
     font-size: $fontSizeTabletHeader;
   }
-  .main{
+  main {
     background-image: url("starter-code/assets/desktop/image-host.jpg");
   }
   .podcast__description {
@@ -55,6 +55,17 @@ main {
   .podcast__description {
     font-size: $fontSizeText;
   }
+}
+
+.platform__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 536px;
+  height: 29px;
+  left: 165px;
+  top: 741px;
 }
 
 .podcast__color {

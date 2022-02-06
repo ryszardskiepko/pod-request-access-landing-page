@@ -58,6 +58,8 @@ main {
 @media (min-width: 375px) {
   body {
     font-size: 48px; }
+  .main {
+    background-image: url("starter-code/assets/desktop/image-host.jpg"); }
   .podcast__description {
     font-size: 18px; } }
 

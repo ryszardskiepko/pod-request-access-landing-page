@@ -86,7 +86,6 @@ main {
   font-size: 15px; }
 
 .podcast__access {
-  position: absolute;
   background: #54e6af;
-  box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
   border-radius: 28px; }

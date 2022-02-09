@@ -77,3 +77,13 @@ main {
 .podcast__dots {
   background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
 }
+
+@media (min-width: $tablet) {
+  .podcast__email {
+    position: absolute;
+    border-radius: 28px;
+    background: $emailBackground;
+    max-width: 427px;
+    height: 56px;
+  }
+}

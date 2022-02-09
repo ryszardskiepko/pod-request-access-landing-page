@@ -30,10 +30,6 @@ main {
   opacity: 0.9;
   background-image: url("starter-code/assets/mobile/image-host.jpg");
   mix-blend-mode: screen;
-  width: 1001px;
-  height: 667px;
-  left: calc(50% - 1001px / 2 - 72px);
-  top: calc(50% - 667px / 2);
 }
 
 @media (min-width: $mobile) {
@@ -62,10 +58,6 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 536px;
-  height: 29px;
-  left: 165px;
-  top: 741px;
 }
 
 .podcast__color {

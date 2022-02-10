@@ -79,6 +79,13 @@ main {
 }
 
 @media (min-width: $tablet) {
+  .podcast__address {
+    position: absolute;
+    width: 427px;
+    height: 56px;
+    left: 39px;
+    top: 618px;
+  }
   .podcast__email {
     position: absolute;
     border-radius: 28px;

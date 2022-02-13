@@ -53,7 +53,7 @@ main {
 
 .platform__list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: absolute; }
 
@@ -69,16 +69,16 @@ main {
 .podcast__description {
   font-size: 15px; }
 
-.podcast__dots {
-  background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg"); }
-
 @media (min-width: 375px) {
   body {
     font-size: 48px; }
   main {
     background-image: url("starter-code/assets/desktop/image-host.jpg"); }
   .podcast__description {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .podcast__dots {
+    background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+    color: #54e6af; } }
 
 @media (min-width: 768px) {
   body {

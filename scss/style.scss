@@ -35,7 +35,7 @@ main {
 .platform {
   &__list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: absolute;
   }
@@ -54,9 +54,6 @@ main {
   &__description {
     font-size: $fontSizeMobileText;
   }
-  &__dots {
-    background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
-  }
 }
 
 @media (min-width: $mobile) {
@@ -66,8 +63,14 @@ main {
   main {
     background-image: url("starter-code/assets/desktop/image-host.jpg");
   }
-  .podcast__description {
-    font-size: $fontSizeText;
+  .podcast {
+    &__description {
+      font-size: $fontSizeText;
+    }
+    &__dots {
+      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      color: $headerButtonColor;
+    }
   }
 }
 
@@ -77,7 +80,7 @@ main {
   }
   .podcast {
     &__access {
-      font-size: 14px;
+      font-size: $fontSizeEmail;
       line-height: 28px;
       position: relative;
       left: 260px;
@@ -89,7 +92,7 @@ main {
     }
     &__address {
       position: absolute;
-      font-size: 14px;
+      font-size: $fontSizeEmail;
       line-height: 28px;
       border-radius: 28px;
       background: $emailBackground;

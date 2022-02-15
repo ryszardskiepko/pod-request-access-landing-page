@@ -58,6 +58,13 @@ main {
   &__description {
     font-size: $fontSizeMobileText;
   }
+  &__dots {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    right: 50px;
+  }
 }
 
 @media (min-width: $mobile) {

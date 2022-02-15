@@ -73,6 +73,13 @@ main {
 .podcast__description {
   font-size: 15px; }
 
+.podcast__dots {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 50px; }
+
 @media (min-width: 375px) {
   body {
     font-size: 48px; }

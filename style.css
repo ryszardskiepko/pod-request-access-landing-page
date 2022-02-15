@@ -55,7 +55,11 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: absolute; }
+  /*position: absolute;*/
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height: 100px; }
 
 .podcast__access {
   color: #121725;

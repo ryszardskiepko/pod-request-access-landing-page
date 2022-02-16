@@ -71,7 +71,8 @@ main {
   color: #54e6af; }
 
 .podcast__description {
-  font-size: 15px; }
+  font-size: 15px;
+  text-align: left; }
 
 .podcast__dots {
   display: flex;
@@ -79,6 +80,9 @@ main {
   align-items: center;
   position: relative;
   right: 50px; }
+
+.podcast__header {
+  text-align: left; }
 
 @media (min-width: 375px) {
   body {

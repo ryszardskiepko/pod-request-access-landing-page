@@ -37,7 +37,6 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*position: absolute;*/
     position: relative;
     left: 20px;
     width: 200px;
@@ -66,8 +65,8 @@ main {
     position: relative;
     right: 50px;
   }
-  &__header{
-    text-align:left;
+  &__header {
+    text-align: left;
   }
 }
 

@@ -59,14 +59,23 @@ main {
     text-align: left;
   }
   &__dots {
-    display: flex;
-    justify-content: flex-start;
+    display: none;
+    /*justify-content: flex-start;
     align-items: center;
     position: relative;
-    right: 50px;
+    right: 50px;*/
   }
   &__header {
-    text-align: left;
+    font-size: $fontSizeMobileHeader;
+    font-weight: $fontRegular;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 327px;
+    min-height: 76px;
+    padding: 57px 24px 16px 24px;
+    position: relative;
+    align-items: center;
   }
 }
 

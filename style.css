@@ -74,14 +74,23 @@ main {
   text-align: left; }
 
 .podcast__dots {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  right: 50px; }
+  display: none;
+  /*justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    right: 50px;*/ }
 
 .podcast__header {
-  text-align: left; }
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 327px;
+  min-height: 76px;
+  padding: 57px 24px 16px 24px;
+  position: relative;
+  align-items: center; }
 
 @media (min-width: 375px) {
   body {

@@ -56,7 +56,10 @@ main {
   }
   &__description {
     font-size: $fontSizeMobileText;
-    text-align: left;
+    font-weight: $fontRegular;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 24px 33px 24px;
   }
   &__header {
     font-size: $fontSizeMobileHeader;

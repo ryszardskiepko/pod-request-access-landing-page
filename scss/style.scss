@@ -58,13 +58,6 @@ main {
     font-size: $fontSizeMobileText;
     text-align: left;
   }
-  &__dots {
-    display: none;
-    /*justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    right: 50px;*/
-  }
   &__header {
     font-size: $fontSizeMobileHeader;
     font-weight: $fontRegular;
@@ -75,7 +68,6 @@ main {
     min-height: 76px;
     padding: 57px 24px 16px 24px;
     position: relative;
-    align-items: center;
   }
 }
 
@@ -93,6 +85,13 @@ main {
     &__dots {
       background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
+    }
+    &__header {
+      font-size: $fontSizeTabletHeader;
+      line-height: 56px;
+      text-transform: uppercase;
+      max-width: 635px;
+      min-height: 112px;
     }
   }
 }

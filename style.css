@@ -74,11 +74,7 @@ main {
   text-align: left; }
 
 .podcast__dots {
-  display: none;
-  /*justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    right: 50px;*/ }
+  display: none; }
 
 .podcast__header {
   font-size: 26px;
@@ -89,8 +85,7 @@ main {
   max-width: 327px;
   min-height: 76px;
   padding: 57px 24px 16px 24px;
-  position: relative;
-  align-items: center; }
+  position: relative; }
 
 @media (min-width: 375px) {
   body {

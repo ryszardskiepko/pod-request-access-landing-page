@@ -129,5 +129,9 @@ main {
     &__description {
       font-size: $fontSizeText;
     }
+    &__dots {
+      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      color: $headerButtonColor;
+    }
   }
 }

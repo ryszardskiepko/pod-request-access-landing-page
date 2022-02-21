@@ -135,3 +135,12 @@ main {
     }
   }
 }
+
+@media (min-width: $desktop) {
+  .podcast {
+    &__dots {
+      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      color: $headerButtonColor;
+    }
+  }
+}

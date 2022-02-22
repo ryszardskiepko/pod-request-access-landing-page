@@ -24,6 +24,11 @@ body {
   color: $textColor;
 }
 
+.logo {
+  background-image: url("starter-code/assets/desktop/logo.svg");
+  position: absolute;
+}
+
 main {
   min-height: 100vh;
   position: absolute;

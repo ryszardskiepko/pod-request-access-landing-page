@@ -106,7 +106,8 @@ main {
     line-height: 56px;
     text-transform: uppercase;
     max-width: 635px;
-    min-height: 112px; } }
+    min-height: 112px;
+    text-align: left; } }
 
 @media (min-width: 768px) {
   body {
@@ -135,7 +136,14 @@ main {
     font-size: 18px; }
   .podcast__dots {
     background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
-    color: #54e6af; } }
+    color: #54e6af; }
+  .podcast__header {
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+    max-width: 665px;
+    min-height: 124px;
+    text-align: left; } }
 
 @media (min-width: 1440px) {
   .podcast__dots {

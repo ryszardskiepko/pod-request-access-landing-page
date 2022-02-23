@@ -100,6 +100,7 @@ main {
       text-transform: uppercase;
       max-width: 635px;
       min-height: 112px;
+      text-align: left;
     }
   }
 }
@@ -137,6 +138,14 @@ main {
     &__dots {
       background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
+    }
+    &__header {
+      font-size: $fontSizeDesktopHeader;
+      line-height: 62px;
+      text-transform: uppercase;
+      max-width: 665px;
+      min-height: 124px;
+      text-align: left;
     }
   }
 }

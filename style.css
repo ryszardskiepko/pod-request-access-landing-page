@@ -100,7 +100,10 @@ main {
     font-size: 18px; }
   .podcast__dots {
     background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
-    color: #54e6af; }
+    color: #54e6af;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center; }
   .podcast__header {
     font-size: 48px;
     line-height: 56px;

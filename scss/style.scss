@@ -93,6 +93,9 @@ main {
     &__dots {
       background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
+      display:flex;
+      align-items: flex-end;
+      justify-items: center;
     }
     &__header {
       font-size: $fontSizeTabletHeader;

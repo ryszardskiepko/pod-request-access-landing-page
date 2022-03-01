@@ -52,7 +52,6 @@ main {
   min-height: 100vh;
   position: absolute;
   opacity: 0.9;
-  background-image: url("starter-code/assets/mobile/image-host.jpg");
   mix-blend-mode: screen; }
 
 .platform__list {
@@ -94,8 +93,9 @@ main {
 @media (min-width: 375px) {
   body {
     font-size: 48px; }
-  main {
-    background-image: url("starter-code/assets/desktop/image-host.jpg"); }
+  /*main {
+    background-image: url("starter-code/assets/desktop/image-host.jpg");
+  }*/
   .podcast__description {
     font-size: 18px; }
   .podcast__dots {

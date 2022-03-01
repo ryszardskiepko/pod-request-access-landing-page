@@ -33,7 +33,7 @@ main {
   min-height: 100vh;
   position: absolute;
   opacity: 0.9;
-  background-image: url("starter-code/assets/mobile/image-host.jpg");
+  //background-image: url("starter-code/assets/mobile/image-host.jpg");
   mix-blend-mode: screen;
 }
 
@@ -83,9 +83,9 @@ main {
   body {
     font-size: $fontSizeTabletHeader;
   }
-  main {
+  /*main {
     background-image: url("starter-code/assets/desktop/image-host.jpg");
-  }
+  }*/
   .podcast {
     &__description {
       font-size: $fontSizeText;
@@ -93,7 +93,7 @@ main {
     &__dots {
       background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
-      display:flex;
+      display: flex;
       align-items: flex-end;
       justify-items: center;
     }

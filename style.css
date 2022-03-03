@@ -98,7 +98,6 @@ main {
   .podcast__description {
     font-size: 18px; }
   .podcast__dots {
-    background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
     color: #54e6af;
     display: flex;
     align-items: flex-end;
@@ -137,7 +136,6 @@ main {
   .podcast__description {
     font-size: 18px; }
   .podcast__dots {
-    background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
     color: #54e6af; }
   .podcast__header {
     font-size: 52px;
@@ -149,5 +147,4 @@ main {
 
 @media (min-width: 1440px) {
   .podcast__dots {
-    background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
     color: #54e6af; } }

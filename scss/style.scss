@@ -91,7 +91,7 @@ main {
       font-size: $fontSizeText;
     }
     &__dots {
-      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
       display: flex;
       align-items: flex-end;
@@ -139,7 +139,7 @@ main {
       font-size: $fontSizeText;
     }
     &__dots {
-      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
     }
     &__header {
@@ -156,7 +156,7 @@ main {
 @media (min-width: $desktop) {
   .podcast {
     &__dots {
-      background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
+      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
     }
   }

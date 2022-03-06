@@ -32,16 +32,19 @@
             Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
           </p>
         </div>
-        <a class="podcast__email">
-          <input
-            class="podcast__address"
-            required
-            id="email"
-            placeholder="Email address"
-            name="email"
-          /><span class="podcast__access">Request access</span>
-        </a>
-        <div class="podcast__alert">Oops! Please check you email</div>
+        <form action="#" method="post">
+          <div class="podcast__email">
+            <input
+              class="podcast__address"
+              required
+              id="email"
+              placeholder="Email address"
+              name="email"
+            /><button class="podcast__access" type="button" id="access">Request access</button>
+            <p class="podcast__error"></p>
+          </div>
+          <!--<div class="podcast__alert">Oops! Please check you email</div>-->
+        </form>
       </section>
       <div class="platform">
         <ul class="platform__list">

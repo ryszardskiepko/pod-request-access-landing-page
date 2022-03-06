@@ -53,15 +53,17 @@ main {
   opacity: 0.9;
   mix-blend-mode: screen; }
 
-.platform__list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  left: 20px;
-  width: 200px;
-  height: 100px; }
-
+/*.platform {
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+  }
+}*/
 .podcast__access {
   color: #121725;
   background: #54e6af;

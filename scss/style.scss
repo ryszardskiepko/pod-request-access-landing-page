@@ -25,7 +25,6 @@ body {
 }
 
 .logo {
-  //background-image: url("starter-code/assets/desktop/logo.svg");
   position: absolute;
 }
 
@@ -33,7 +32,6 @@ main {
   min-height: 100vh;
   position: absolute;
   opacity: 0.9;
-  //background-image: url("starter-code/assets/mobile/image-host.jpg");
   mix-blend-mode: screen;
 }
 
@@ -83,15 +81,11 @@ main {
   body {
     font-size: $fontSizeTabletHeader;
   }
-  /*main {
-    background-image: url("starter-code/assets/desktop/image-host.jpg");
-  }*/
   .podcast {
     &__description {
       font-size: $fontSizeText;
     }
     &__dots {
-      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
       display: flex;
       align-items: flex-end;
@@ -139,7 +133,6 @@ main {
       font-size: $fontSizeText;
     }
     &__dots {
-      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
     }
     &__header {
@@ -156,7 +149,6 @@ main {
 @media (min-width: $desktop) {
   .podcast {
     &__dots {
-      //background-image: url("starter-code/assets/desktop/bg-pattern-dots.svg");
       color: $headerButtonColor;
     }
   }

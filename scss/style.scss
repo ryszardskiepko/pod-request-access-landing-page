@@ -24,6 +24,15 @@ body {
   color: $textColor;
 }
 
+.form {
+  &__access {
+    color: $requestColor;
+    background: $headerButtonColor;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+    border-radius: 28px;
+  }
+}
+
 .logo {
   position: absolute;
 }
@@ -48,12 +57,6 @@ main {
 }*/
 
 .podcast {
-  &__access {
-    color: $requestColor;
-    background: $headerButtonColor;
-    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
-    border-radius: 28px;
-  }
   &__color {
     color: $headerButtonColor;
   }
@@ -78,18 +81,18 @@ main {
 }
 
 @media (min-width: $mobile) {
+  .bg-dots {
+    color: $headerButtonColor;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+  }
   body {
     font-size: $fontSizeTabletHeader;
   }
   .podcast {
     &__description {
       font-size: $fontSizeText;
-    }
-    &__dots {
-      color: $headerButtonColor;
-      display: flex;
-      align-items: flex-end;
-      justify-items: center;
     }
     &__header {
       font-size: $fontSizeTabletHeader;
@@ -103,10 +106,13 @@ main {
 }
 
 @media (min-width: $tablet) {
+  .bg-dots {
+    color: $headerButtonColor;
+  }
   body {
     font-size: $fontSizeDesktopHeader;
   }
-  .podcast {
+  .form {
     &__access {
       font-size: $fontSizeEmail;
       line-height: 28px;
@@ -129,11 +135,10 @@ main {
       left: 39px;
       top: 618px;
     }
+  }
+  .podcast {
     &__description {
       font-size: $fontSizeText;
-    }
-    &__dots {
-      color: $headerButtonColor;
     }
     &__header {
       font-size: $fontSizeDesktopHeader;
@@ -147,9 +152,7 @@ main {
 }
 
 @media (min-width: $desktop) {
-  .podcast {
-    &__dots {
-      color: $headerButtonColor;
-    }
+  .bg-dots {
+    color: $headerButtonColor;
   }
 }

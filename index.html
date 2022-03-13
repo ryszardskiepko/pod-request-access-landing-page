@@ -23,7 +23,7 @@
           <img class="logo" src="starter-code/assets/desktop/logo.svg" alt="" />
         </header>
         <main>
-          <div class="podcast__text">
+          <div class="podcast">
             <h1 class="podcast__header">
               Publish your podcasts <span class="podcast__color">everywhere.</span>
             </h1>
@@ -33,24 +33,34 @@
             </p>
           </div>
           <form action="#" method="post">
-            <div class="podcast__email">
+            <!--
+              podcast__email -> form
+              podcast__address -> form__address
+              podcast__access -> form__access
+              podcast__error -> form__error
+              podcast__dots -> bg-dots
+            -->
+            <div class="form">
               <input
-                class="podcast__address"
+                class="form__address"
                 required
                 id="email"
                 placeholder="Email address"
                 name="email"
-              /><button class="podcast__access" type="button" id="access">
-                Request access
-              </button>
-              <p class="podcast__error"></p>
+              /><button class="form__access" type="button" id="access">Request access</button>
+              <p class="form__error"></p>
             </div>
             <img
-              class="podcast__dots"
+              class="bg-dots"
               src="starter-code/assets/desktop/bg-pattern-dots.svg"
               alt=""
             />
           </form>
+          <!--
+            every:
+            platform -> icon
+            & platform-icon -> icon
+          -->
           <div class="platform">
             <img
               class="platform-icon__spotify"

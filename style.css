@@ -83,6 +83,9 @@ body {
   justify-content: center;
   margin-top: 62px; }
 
+main {
+  padding: 10px 10px; }
+
 /*.form {
   &__access {
     color: $requestColor;

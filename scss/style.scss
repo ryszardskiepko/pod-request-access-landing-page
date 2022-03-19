@@ -48,6 +48,14 @@ body {
   background: $background;
 }
 
+.desktop-image {
+  display: none;
+}
+
+.tablet-image {
+  display: none;
+}
+
 /*.form {
   &__access {
     color: $requestColor;

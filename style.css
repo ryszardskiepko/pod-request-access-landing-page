@@ -66,6 +66,12 @@ body {
   opacity: 0.9;
   background: #121725; }
 
+.desktop-image {
+  display: none; }
+
+.tablet-image {
+  display: none; }
+
 /*.form {
   &__access {
     color: $requestColor;

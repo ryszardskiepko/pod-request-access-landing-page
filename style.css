@@ -86,6 +86,9 @@ body {
 main {
   padding: 10px 10px; }
 
+.podcast {
+  text-align: center; }
+
 /*.form {
   &__access {
     color: $requestColor;

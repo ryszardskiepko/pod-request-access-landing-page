@@ -95,6 +95,9 @@ main {
   text-transform: uppercase;
   margin: 57px 0px 16px 0px; }
 
+.podcast__color {
+  color: #ffffff; }
+
 /*.form {
   &__access {
     color: $requestColor;

@@ -89,6 +89,12 @@ main {
 .podcast {
   text-align: center; }
 
+.podcast__header {
+  font-size: 26px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin: 57px 0px 16px 0px; }
+
 /*.form {
   &__access {
     color: $requestColor;

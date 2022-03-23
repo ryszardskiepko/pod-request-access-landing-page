@@ -98,6 +98,11 @@ main {
 .podcast__color {
   color: #ffffff; }
 
+.podcast__description {
+  margin-top: 16px;
+  font-weight: 300;
+  color: #c2cbe5; }
+
 /*.form {
   &__access {
     color: $requestColor;

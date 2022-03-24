@@ -94,10 +94,14 @@ main {
   color: $textColor;
 }
 
-.icon {
+.icons {
   display: flex;
   justify-content: space-around;
   margin-top: 32px;
+}
+
+.icon {
+  height: 17px;
 }
 
 /*.form {

@@ -114,6 +114,15 @@ main {
   margin-top: 48px;
 }
 
+.form__address,
+.form__access {
+  padding: 9px 0;
+  border-radius: 25px;
+  border: none;
+  line-height: 28px;
+  cursor: pointer;
+}
+
 /*.form {
   &__access {
     color: $requestColor;

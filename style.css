@@ -114,6 +114,11 @@ main {
 .icon__google {
   height: 15px; }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px; }
+
 /*.form {
   &__access {
     color: $requestColor;

@@ -127,6 +127,11 @@ main {
   line-height: 28px;
   cursor: pointer; }
 
+.form__address {
+  padding-left: 32px;
+  margin-bottom: 16px;
+  opacity: 0.5; }
+
 /*.form {
   &__access {
     color: $requestColor;

@@ -132,6 +132,9 @@ main {
   margin-bottom: 16px;
   opacity: 0.5; }
 
+.form__access {
+  background-color: #54e6af; }
+
 /*.form {
   &__access {
     color: $requestColor;

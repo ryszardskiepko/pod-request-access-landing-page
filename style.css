@@ -135,6 +135,11 @@ main {
 .form__access {
   background-color: #54e6af; }
 
+.form__access:focus,
+.form__access:hover {
+  background-color: #15ac72;
+  color: #c2cbe5; }
+
 /*.form {
   &__access {
     color: $requestColor;

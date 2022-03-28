@@ -140,6 +140,9 @@ main {
   background-color: #15ac72;
   color: #c2cbe5; }
 
+.form__error {
+  color: #fb3e3e; }
+
 /*.form {
   &__access {
     color: $requestColor;

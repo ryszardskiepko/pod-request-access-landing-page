@@ -139,6 +139,10 @@ main {
   color: $textColor;
 }
 
+.form__error {
+  color: $warningColor;
+}
+
 /*.form {
   &__access {
     color: $requestColor;

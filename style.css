@@ -143,6 +143,9 @@ main {
 .form__error {
   color: #fb3e3e; }
 
+.bg-dots {
+  display: none; }
+
 /*.form {
   &__access {
     color: $requestColor;

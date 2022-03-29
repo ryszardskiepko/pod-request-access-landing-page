@@ -143,6 +143,10 @@ main {
   color: $warningColor;
 }
 
+.bg-dots {
+  display: none;
+}
+
 /*.form {
   &__access {
     color: $requestColor;

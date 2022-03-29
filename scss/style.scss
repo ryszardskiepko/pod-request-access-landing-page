@@ -147,6 +147,13 @@ main {
   display: none;
 }
 
+@media (min-width: $tablet) {
+  .container {
+    width: $tablet;
+    height: 1000px;
+  }
+}
+
 /*.form {
   &__access {
     color: $requestColor;

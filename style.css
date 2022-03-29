@@ -201,59 +201,80 @@ main {
   }
 }
 */
-@media (min-width: 375px) {
+/*@media (min-width: $mobile) {
   .bg-dots {
-    color: #54e6af;
+    color: $headerButtonColor;
     display: flex;
     align-items: flex-end;
-    justify-items: center; }
+    justify-items: center;
+  }
   body {
-    font-size: 48px; }
-  .podcast__description {
-    font-size: 18px; }
-  .podcast__header {
-    font-size: 48px;
-    line-height: 56px;
-    text-transform: uppercase;
-    max-width: 635px;
-    min-height: 112px;
-    text-align: left; } }
+    font-size: $fontSizeTabletHeader;
+  }
+  .podcast {
+    &__description {
+      font-size: $fontSizeText;
+    }
+    &__header {
+      font-size: $fontSizeTabletHeader;
+      line-height: 56px;
+      text-transform: uppercase;
+      max-width: 635px;
+      min-height: 112px;
+      text-align: left;
+    }
+  }
+}
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
   .bg-dots {
-    color: #54e6af; }
+    color: $headerButtonColor;
+  }
   body {
-    font-size: 52px; }
-  .form__access {
-    font-size: 14px;
-    line-height: 28px;
-    position: relative;
-    left: 260px;
-    right: 5px;
-    top: 5px;
-    bottom: 5px;
-    max-width: 162px;
-    height: 46px; }
-  .form__address {
-    position: absolute;
-    font-size: 14px;
-    line-height: 28px;
-    border-radius: 28px;
-    background: #2c344b;
-    width: 427px;
-    height: 56px;
-    left: 39px;
-    top: 618px; }
-  .podcast__description {
-    font-size: 18px; }
-  .podcast__header {
-    font-size: 52px;
-    line-height: 62px;
-    text-transform: uppercase;
-    max-width: 665px;
-    min-height: 124px;
-    text-align: left; } }
+    font-size: $fontSizeDesktopHeader;
+  }
+  .form {
+    &__access {
+      font-size: $fontSizeEmail;
+      line-height: 28px;
+      position: relative;
+      left: 260px;
+      right: 5px;
+      top: 5px;
+      bottom: 5px;
+      max-width: 162px;
+      height: 46px;
+    }
+    &__address {
+      position: absolute;
+      font-size: $fontSizeEmail;
+      line-height: 28px;
+      border-radius: 28px;
+      background: $emailBackground;
+      width: 427px;
+      height: 56px;
+      left: 39px;
+      top: 618px;
+    }
+  }
+  .podcast {
+    &__description {
+      font-size: $fontSizeText;
+    }
+    &__header {
+      font-size: $fontSizeDesktopHeader;
+      line-height: 62px;
+      text-transform: uppercase;
+      max-width: 665px;
+      min-height: 124px;
+      text-align: left;
+    }
+  }
+}
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop) {
   .bg-dots {
-    color: #54e6af; } }
+    color: $headerButtonColor;
+  }
+}
+*/

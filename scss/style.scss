@@ -152,6 +152,11 @@ main {
     width: $tablet;
     height: 1000px;
   }
+
+  .container::before {
+    content: "";
+    opacity: 1;
+  }
 }
 
 /*.form {

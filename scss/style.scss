@@ -157,6 +157,13 @@ main {
     content: "";
     opacity: 1;
   }
+
+  .tablet-image {
+    display: block;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+  }
 }
 
 /*.form {

@@ -152,7 +152,12 @@ main {
     height: 1000px; }
   .container::before {
     content: "";
-    opacity: 1; } }
+    opacity: 1; }
+  .tablet-image {
+    display: block;
+    object-fit: contain;
+    position: absolute;
+    right: 0; } }
 
 /*.form {
   &__access {

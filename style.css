@@ -157,7 +157,11 @@ main {
     display: block;
     object-fit: contain;
     position: absolute;
-    right: 0; } }
+    right: 0; }
+  .logo {
+    position: absolute;
+    top: -140px;
+    left: 20px; } }
 
 /*.form {
   &__access {

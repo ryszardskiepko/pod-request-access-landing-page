@@ -173,7 +173,9 @@ main {
     background-color: #121725;
     position: absolute;
     top: 100px;
-    padding: 2px; } }
+    padding: 2px; }
+  .podcast {
+    text-align: left; } }
 
 /*.form {
   &__access {

@@ -207,7 +207,10 @@ main {
     width: 1440px;
     background: #121725; }
   .tablet-image {
-    display: none; } }
+    display: none; }
+  .desktop-image {
+    display: block;
+    object-fit: contain; } }
 
 /*.form {
   &__access {

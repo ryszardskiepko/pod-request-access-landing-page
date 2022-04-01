@@ -240,6 +240,11 @@ main {
   .tablet-image {
     display: none;
   }
+
+  .desktop-image {
+    display: block;
+    object-fit: contain;
+  }
 }
 
 /*.form {

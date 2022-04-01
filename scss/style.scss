@@ -231,6 +231,13 @@ main {
   }
 }
 
+@media (min-width: 1430px) {
+  .container {
+    width: 1440px;
+    background: $background;
+  }
+}
+
 /*.form {
   &__access {
     color: $requestColor;

@@ -193,7 +193,10 @@ main {
     width: 162px;
     right: 25%; }
   .form__address {
-    width: 460px; } }
+    width: 460px; }
+  .form__error {
+    position: absolute;
+    bottom: 72px; } }
 
 /*.form {
   &__access {

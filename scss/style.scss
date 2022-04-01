@@ -218,6 +218,11 @@ main {
   .form__address {
     width: 460px;
   }
+
+  .form__error {
+    position: absolute;
+    bottom: 72px;
+  }
 }
 
 /*.form {

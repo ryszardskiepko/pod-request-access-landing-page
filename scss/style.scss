@@ -205,6 +205,15 @@ main {
     margin-right: 32px;
     height: 26px;
   }
+
+  .form button {
+    border: 0;
+    border-radius: 32px;
+    position: absolute;
+    height: 46px;
+    width: 162px;
+    right: 25%;
+  }
 }
 
 /*.form {

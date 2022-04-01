@@ -205,7 +205,9 @@ main {
 @media (min-width: 1430px) {
   .container {
     width: 1440px;
-    background: #121725; } }
+    background: #121725; }
+  .tablet-image {
+    display: none; } }
 
 /*.form {
   &__access {

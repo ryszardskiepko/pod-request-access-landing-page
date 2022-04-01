@@ -196,7 +196,11 @@ main {
     width: 460px; }
   .form__error {
     position: absolute;
-    bottom: 72px; } }
+    bottom: 72px; }
+  .bg-dots {
+    display: block;
+    position: absolute;
+    bottom: -180px; } }
 
 /*.form {
   &__access {

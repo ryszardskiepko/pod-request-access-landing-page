@@ -215,7 +215,9 @@ main {
   .logo {
     margin-left: 48px; }
   .logo {
-    margin-top: 102px; } }
+    margin-top: 102px; }
+  .podcast__header {
+    font-size: 52px; } }
 
 /*.form {
   &__access {

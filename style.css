@@ -213,7 +213,9 @@ main {
     object-fit: contain; }
   .content-wrapper,
   .logo {
-    margin-left: 48px; } }
+    margin-left: 48px; }
+  .logo {
+    margin-top: 102px; } }
 
 /*.form {
   &__access {

@@ -258,6 +258,13 @@ main {
   .podcast__header {
     font-size: 52px;
   }
+
+  .bg-dots {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: -700px;
+  }
 }
 
 /*.form {

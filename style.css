@@ -217,7 +217,12 @@ main {
   .logo {
     margin-top: 102px; }
   .podcast__header {
-    font-size: 52px; } }
+    font-size: 52px; }
+  .bg-dots {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: -700px; } }
 
 /*.form {
   &__access {

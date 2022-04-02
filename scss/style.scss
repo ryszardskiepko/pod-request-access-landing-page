@@ -245,6 +245,11 @@ main {
     display: block;
     object-fit: contain;
   }
+
+  .content-wrapper,
+  .logo {
+    margin-left: 48px;
+  }
 }
 
 /*.form {

@@ -210,7 +210,10 @@ main {
     display: none; }
   .desktop-image {
     display: block;
-    object-fit: contain; } }
+    object-fit: contain; }
+  .content-wrapper,
+  .logo {
+    margin-left: 48px; } }
 
 /*.form {
   &__access {

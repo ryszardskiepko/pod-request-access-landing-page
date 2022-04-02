@@ -200,7 +200,9 @@ main {
   .bg-dots {
     display: block;
     position: absolute;
-    bottom: -180px; } }
+    bottom: -180px; }
+  .form {
+    font-size: 14px; } }
 
 @media (min-width: 1430px) {
   .container {

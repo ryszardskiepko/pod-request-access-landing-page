@@ -8,4 +8,5 @@ let errors = [];
 button.addEventListener("click", (e) => {
   textError = classList.remove("form__success");
   errors = [];
+  e.preventDefault();
 });

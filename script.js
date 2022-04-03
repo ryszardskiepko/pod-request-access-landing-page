@@ -10,4 +10,8 @@ button.addEventListener("click", (e) => {
   errors = [];
   e.preventDefault();
   const email = input.value;
+  if (email === "" || email === undefined || !email.match(validation)) {
+    errors.push("Oops! Please check your email");
+    textError.innerHTML = errors[0];
+  }
 });

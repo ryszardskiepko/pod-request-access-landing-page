@@ -14,4 +14,8 @@ button.addEventListener("click", (e) => {
     errors.push("Oops! Please check your email");
     textError.innerHTML = errors[0];
   }
+  if (!errors.length > 0) {
+    textError.classList.add("form__success");
+    textError.innerHTML = "Check your email for confirmation";
+  }
 });

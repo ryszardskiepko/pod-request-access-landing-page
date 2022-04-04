@@ -146,6 +146,9 @@ main {
 .bg-dots {
   display: none; }
 
+.form__success {
+  color: #54e6af; }
+
 @media (min-width: 768px) {
   .container {
     width: 768px;

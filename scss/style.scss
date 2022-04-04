@@ -147,6 +147,10 @@ main {
   display: none;
 }
 
+.form__success {
+  color: $headerButtonColor;
+}
+
 @media (min-width: $tablet) {
   .container {
     width: $tablet;

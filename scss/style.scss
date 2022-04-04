@@ -237,23 +237,26 @@ main {
 }
 
 @media (min-width: 1430px) {
+  .bg-dots {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: -700px;
+  }
+
   .container {
     width: 1440px;
     background: $background;
   }
 
-  .tablet-image {
-    display: none;
+  .content-wrapper,
+  .logo {
+    margin-left: 48px;
   }
 
   .desktop-image {
     display: block;
     object-fit: contain;
-  }
-
-  .content-wrapper,
-  .logo {
-    margin-left: 48px;
   }
 
   .logo {
@@ -264,10 +267,7 @@ main {
     font-size: 52px;
   }
 
-  .bg-dots {
-    display: block;
-    position: absolute;
-    bottom: -30px;
-    right: -700px;
+  .tablet-image {
+    display: none;
   }
 }

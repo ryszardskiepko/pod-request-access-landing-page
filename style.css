@@ -194,23 +194,23 @@ main {
     right: 0; } }
 
 @media (min-width: 1430px) {
-  .container {
-    width: 1440px;
-    background: #121725; }
-  .tablet-image {
-    display: none; }
-  .desktop-image {
-    display: block;
-    object-fit: contain; }
-  .content-wrapper,
-  .logo {
-    margin-left: 48px; }
-  .logo {
-    margin-top: 102px; }
-  .podcast__header {
-    font-size: 52px; }
   .bg-dots {
     display: block;
     position: absolute;
     bottom: -30px;
-    right: -700px; } }
+    right: -700px; }
+  .container {
+    width: 1440px;
+    background: #121725; }
+  .content-wrapper,
+  .logo {
+    margin-left: 48px; }
+  .desktop-image {
+    display: block;
+    object-fit: contain; }
+  .logo {
+    margin-top: 102px; }
+  .podcast__header {
+    font-size: 52px; }
+  .tablet-image {
+    display: none; } }

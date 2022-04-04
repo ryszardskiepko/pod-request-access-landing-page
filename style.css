@@ -59,18 +59,16 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto; }
-
-.container::before {
-  content: "";
-  width: 100%;
-  opacity: 0.9;
-  background: #121725; }
-
-.container-page {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 1rem; }
+  .container::before {
+    content: "";
+    width: 100%;
+    opacity: 0.9;
+    background: #121725; }
+  .container-page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 1rem; }
 
 .desktop-image {
   display: none; }
@@ -88,20 +86,17 @@ main {
 
 .podcast {
   text-align: center; }
-
-.podcast__header {
-  font-size: 26px;
-  line-height: 38px;
-  text-transform: uppercase;
-  margin: 57px 0px 16px 0px; }
-
-.podcast__color {
-  color: #ffffff; }
-
-.podcast__description {
-  margin-top: 16px;
-  font-weight: 300;
-  color: #c2cbe5; }
+  .podcast__header {
+    font-size: 26px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin: 57px 0px 16px 0px; }
+  .podcast__color {
+    color: #ffffff; }
+  .podcast__description {
+    margin-top: 16px;
+    font-weight: 300;
+    color: #c2cbe5; }
 
 .icons {
   display: flex;
@@ -110,44 +105,35 @@ main {
 
 .icon {
   height: 17px; }
-
-.icon__google {
-  height: 15px; }
+  .icon__google {
+    height: 15px; }
 
 .form {
   display: flex;
   flex-direction: column;
   margin-top: 48px; }
-
-.form__address,
-.form__access {
-  padding: 9px 0;
-  border-radius: 25px;
-  border: none;
-  line-height: 28px;
-  cursor: pointer; }
-
-.form__address {
-  padding-left: 32px;
-  margin-bottom: 16px;
-  opacity: 0.5; }
-
-.form__access {
-  background-color: #54e6af; }
-
-.form__access:focus,
-.form__access:hover {
-  background-color: #15ac72;
-  color: #c2cbe5; }
-
-.form__error {
-  color: #fb3e3e; }
+  .form__address, .form__access {
+    padding: 9px 0;
+    border-radius: 25px;
+    border: none;
+    line-height: 28px;
+    cursor: pointer; }
+  .form__address {
+    padding-left: 32px;
+    margin-bottom: 16px;
+    opacity: 0.5; }
+  .form__access {
+    background-color: #54e6af; }
+    .form__access:focus, .form__access:hover {
+      background-color: #15ac72;
+      color: #c2cbe5; }
+    .form__access__error {
+      color: #fb3e3e; }
+  .form__success {
+    color: #54e6af; }
 
 .bg-dots {
   display: none; }
-
-.form__success {
-  color: #54e6af; }
 
 @media (min-width: 768px) {
   .container {

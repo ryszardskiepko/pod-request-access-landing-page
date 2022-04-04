@@ -136,6 +136,10 @@ main {
   display: none; }
 
 @media (min-width: 768px) {
+  .bg-dots {
+    display: block;
+    position: absolute;
+    bottom: -180px; }
   .container {
     width: 768px;
     height: 1000px; }
@@ -147,15 +151,6 @@ main {
       height: 509px;
       position: absolute;
       bottom: 300px; }
-  .tablet-image {
-    display: block;
-    object-fit: contain;
-    position: absolute;
-    right: 0; }
-  .logo {
-    position: absolute;
-    top: -140px;
-    left: 20px; }
   .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -163,6 +158,27 @@ main {
     position: absolute;
     top: 100px;
     padding: 2px; }
+  .form {
+    font-size: 14px; }
+    .form__address {
+      width: 460px; }
+    .form__error {
+      position: absolute;
+      bottom: 72px; }
+  .form button {
+    border: 0;
+    border-radius: 32px;
+    position: absolute;
+    height: 46px;
+    width: 162px;
+    right: 25%; }
+  .icons {
+    margin-right: 32px;
+    height: 26px; }
+  .logo {
+    position: absolute;
+    top: -140px;
+    left: 20px; }
   .podcast {
     text-align: left; }
     .podcast__header {
@@ -171,27 +187,11 @@ main {
     .podcast__description {
       font-size: 18px;
       line-height: 26px; }
-  .icons {
-    margin-right: 32px;
-    height: 26px; }
-  .form button {
-    border: 0;
-    border-radius: 32px;
-    position: absolute;
-    height: 46px;
-    width: 162px;
-    right: 25%; }
-  .bg-dots {
+  .tablet-image {
     display: block;
+    object-fit: contain;
     position: absolute;
-    bottom: -180px; }
-  .form {
-    font-size: 14px; }
-    .form__address {
-      width: 460px; }
-    .form__error {
-      position: absolute;
-      bottom: 72px; } }
+    right: 0; } }
 
 @media (min-width: 1430px) {
   .container {

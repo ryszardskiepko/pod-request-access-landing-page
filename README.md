@@ -15,3 +15,8 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
+## Author
+
+- Frontend Mentor - [@ryszardskiepko](https://www.frontendmentor.io/profile/ryszardskiepko)
+- Github - [@ryszardskiepko](https://github.com/ryszardskiepko)

@@ -2,7 +2,7 @@ const button = document.querySelector("#button");
 const input = document.querySelector("#email");
 const textError = document.querySelector(".form__error");
 const form = document.querySelector(".form");
-const validation = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+const validation = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 let errors = [];
 
 button.addEventListener("click", (e) => {
